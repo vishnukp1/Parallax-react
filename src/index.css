@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700,900&display=swap');
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #151010;
+}
+
+.bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

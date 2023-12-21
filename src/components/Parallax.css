@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+ 
+    overflow-x: hidden;
+    perspective: 11px;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  
+  .sky-bg {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .moon-bg {
+    transform: translateZ(-10px) scale(1.2);
+  }
+  
+  .mountain-bg {
+    transform: translateZ(-5px) scale(1.5);
+  }
+  
+  .sky-bg,
+
+  .mountain-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .title {
+    position: absolute;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:#144367;
+    text-shadow: 0 0 5px rgb(206, 188, 188);
+    visibility: visible; 
+  }
+  
+  section {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
