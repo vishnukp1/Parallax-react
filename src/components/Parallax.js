@@ -1,5 +1,5 @@
 import React from "react";
-import "./Parallax.css";
+import "../styles/Parallax.css";
 import sky from "../assets/bg.jpg";
 import mountain from "../assets/mountain (1).png";
 import moon from "../assets/moon.png";
