@@ -1,13 +1,3 @@
-.parallax-image {
-  object-fit: cover;
-  transform: translateZ(-1px) scale(1.5);
-  transition: transform 0.3s ease-out;
-}
-
-.parallax-image:hover {
-  transform: translateZ(-1px) scale(1.8);
-}
-.parallax-image-container{
-  margin-bottom: 10rem;
-  margin-top: 16rem;
+.swiper{
+  height: 44rem;
 }
